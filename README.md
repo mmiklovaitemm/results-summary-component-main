@@ -10,12 +10,12 @@ This is a responsive results summary component built with HTML and CSS. The desi
 ## Screenshots:
 
 ### Desktop View 1:
-![Results Summary Component - Screenshot 1](./Results summary component-ss-1.png)
+![Results Summary Component - Screenshot 1](./Results-summary-component-ss-1.png)
 
 ### Desktop View 2:
-![Results Summary Component - Screenshot 2](./Results summary component-ss-2.png)
+![Results Summary Component - Screenshot 2](./Results-summary-component-ss-2.png)
 
 ### Mobile View:
-![Results Summary Component - Mobile Screenshot](./Results summary component-mobile-ss.png)
+![Results Summary Component - Mobile Screenshot](./Results-summary-component-mobile-ss.png)
 
 Feel free to explore the project and provide feedback or suggestions for improvement!
