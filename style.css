@@ -179,20 +179,20 @@ body {
     margin: 0;
 }
 
-.svg-container svg {
-    vertical-align: middle; 
-    margin: 0;
-    padding: 0;
-    padding-left: 10px;
-    margin-right: 5px;
-    margin-bottom: 3px;
-    margin-top: 3px;
+.result-title-and-svg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#visual-svg {
+.svg-container svg {
+    margin: 0;
     padding: 0;
-    padding-left: 2px;
-    padding-right: 3px;
+    margin-top: 4px;
+    margin-right: 5px;
+    margin-left: 6px;
 }
 
 .score-container {
@@ -244,7 +244,7 @@ body {
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 580px) {
     body {
         padding: 0;
         margin: 0;
@@ -278,8 +278,9 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 390px;
+        width: 100%;
         height: 100%;
+        margin: 0;
         margin-top: -20px;
         border-radius: 0;
         padding: 0;
@@ -307,16 +308,6 @@ body {
         margin-left: 20px;
     }
 
-    .reaction,
-    .memory,
-    .verbal,
-    .visual {
-        margin-left: -50px;
-    }
-
-    .svg-container svg {
-        margin-left: -20px;
-    }
 
     #button {
         padding: 15px 100px;
