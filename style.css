@@ -279,7 +279,7 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100%;
+        height: auto;
         margin: 0;
         margin-top: -20px;
         border-radius: 0;
@@ -288,7 +288,6 @@ body {
 
     .summary-title {
         padding-top: 35px;
-        margin-left: -11rem;
     }
 
     .reaction-container,
@@ -301,13 +300,12 @@ body {
         align-items: center;
         text-align: center;
         font-size: 14px;
-        width: 80%;
+        width: 70%;
         padding: 10px 0;
         border-radius: 5px;
         margin-bottom: 10px;
         margin-left: 20px;
     }
-
 
     #button {
         padding: 15px 100px;
